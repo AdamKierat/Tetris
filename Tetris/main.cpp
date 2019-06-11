@@ -1,8 +1,13 @@
-#include <SFML/Graphics.hpp>
+#include "Game.h"
 
-int main()
-{
-	
+int WIDTH = 300;
+int HEIGHT = 600;
+
+int main() {
+
+	Game tetris;
+	RenderWindow window(VideoMode(WIDTH + 210, HEIGHT), "Tetris");
+	tetris.start(window);
 
 	return 0;
 }

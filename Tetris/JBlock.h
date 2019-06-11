@@ -1,8 +1,14 @@
 #pragma once
-class JBlock
-{
+#include <SFML/Graphics.hpp>
+#include "Block.h"
+#include "Field.h"
+using namespace sf;
+
+
+class JBlock :  public  Block {
 public:
 	JBlock();
-	~JBlock();
+	 void rotateBlock(Field f);
+
 };
 

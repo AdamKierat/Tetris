@@ -3,10 +3,10 @@
 #include <iostream>
 #include <windows.h>
 #include <vector>
-#include "Piece.h"
+#include "Block.h"
 using namespace std;
-class Block;
 
+class Block;
 class Field
 {
 public:

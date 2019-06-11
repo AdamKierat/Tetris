@@ -131,19 +131,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Block.cpp" />
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="IBlock.cpp" />
     <ClCompile Include="JBlock.cpp" />
     <ClCompile Include="LBlock.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Next.cpp" />
+    <ClCompile Include="OBlock.cpp" />
+    <ClCompile Include="SBlock.cpp" />
+    <ClCompile Include="Shadow.cpp" />
+    <ClCompile Include="Stats.cpp" />
+    <ClCompile Include="TBlock.cpp" />
+    <ClCompile Include="Zblock.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Block.h" />
     <ClInclude Include="Field.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="IBlock.h" />
     <ClInclude Include="JBlock.h" />
     <ClInclude Include="LBlock.h" />
+    <ClInclude Include="Next.h" />
+    <ClInclude Include="OBlock.h" />
+    <ClInclude Include="SBlock.h" />
+    <ClInclude Include="Shadow.h" />
+    <ClInclude Include="Stats.h" />
+    <ClInclude Include="TBlock.h" />
+    <ClInclude Include="Zblock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

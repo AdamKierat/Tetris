@@ -1,8 +1,14 @@
 #pragma once
-class OBlock
-{
+#include <SFML/Graphics.hpp>
+#include "Block.h"
+#include "Field.h"
+using namespace sf;
+
+
+class OBlock :  public Block {
 public:
 	OBlock();
-	~OBlock();
+	 void rotateBlock(Field f);
+
 };
 
