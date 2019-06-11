@@ -1,4 +1,5 @@
-#pragma once
+#ifndef FIELD_H
+#define FIELD_H
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <windows.h>
@@ -37,4 +38,4 @@ public:
 private:
 	char field[20][10];
 };
-
+#endif

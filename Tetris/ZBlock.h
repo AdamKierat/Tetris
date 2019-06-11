@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ZBlock_H
+#define ZBlock_H
 #include <SFML/Graphics.hpp>
 #include "Block.h"
 #include "Field.h"
@@ -11,4 +12,4 @@ public:
 	 void rotateBlock(Field f);
 
 };
-
+#endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef NEXT_H
+#define NEXT_H
 #include <SFML/Graphics.hpp>
 #include "IBlock.h"
 #include "JBlock.h"
@@ -31,4 +32,4 @@ private:
 	TBlock tBlock;
 	void draw(RenderTarget &target, RenderStates states) const;
 };
-
+#endif

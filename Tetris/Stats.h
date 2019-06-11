@@ -1,4 +1,5 @@
-#pragma once
+#ifndef STATS_H
+#define STATS_H
 #include <SFML/Graphics.hpp>
 #include <sstream>
 
@@ -21,4 +22,4 @@ private:
 	void draw(RenderTarget &target, RenderStates states) const;
 	
 };
-
+#endif

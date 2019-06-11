@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_H
+#define GAME_H
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <iostream>
@@ -33,3 +34,4 @@ private:
 
 	RenderWindow window;
 };
+#endif

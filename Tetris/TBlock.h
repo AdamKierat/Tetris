@@ -1,4 +1,6 @@
-#pragma once
+#ifndef TBLOCK_H
+#define TBLOCK_H
+
 #include <SFML/Graphics.hpp>
 #include "Block.h"
 #include "Field.h"
@@ -11,4 +13,4 @@ public:
 	 void rotateBlock(Field f);
 
 };
-
+#endif 

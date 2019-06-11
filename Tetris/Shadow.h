@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SHADOW_H
+#define SHADOW_H
 #include <SFML/Graphics.hpp>
 #include "IBlock.h"
 #include "JBlock.h"
@@ -27,3 +28,4 @@ private:
 	void draw(RenderTarget &target, RenderStates states) const;
 
 };
+#endif

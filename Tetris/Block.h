@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BLOCK_H
+#define BLOCK_H
 #include <SFML/Graphics.hpp>
 #include "Field.h"
 #include <iostream>
@@ -6,7 +7,7 @@
 using namespace sf;
 using namespace std;
 
-
+class Field;
 class Block: public Drawable , public Transformable
 {
 public:
@@ -40,3 +41,4 @@ protected:
 private:
 	void draw(RenderTarget &target, RenderStates states)const;
 };
+#endif 
