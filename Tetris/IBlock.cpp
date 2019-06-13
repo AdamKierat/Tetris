@@ -37,7 +37,7 @@ IBlock::IBlock() {
 
 	switch (angle) {
 	case 0:
-		// Sprawdzam czy moge obrocic
+		// Sprawdzam czy mozna obrocic
 		positionR = blocks[2].getPosition();
 		y = positionR.x / 30;
 		x = positionR.y / 30;
@@ -54,7 +54,7 @@ IBlock::IBlock() {
 		blocks[1].move(BRICK_SIZE, BRICK_SIZE);
 		blocks[3].move(-BRICK_SIZE, -BRICK_SIZE);
 
-		// Jesli przy obracaniu wyszedlem za ekran
+		// Jesli przy obracaniu wyszedl za ekran
 		if (position.y == 540) this->move(0, -30);
 		if (position.y == 570) this->move(0, -60);
 		angle++;

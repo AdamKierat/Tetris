@@ -27,8 +27,8 @@ class Game {
 public:
 
 	Game();
-	void start(RenderWindow &window);
-	void over(int i, Field field, vector<Block*> blocks, Stats stats, Next nextWindow, RenderWindow &window);
+	void start(RenderWindow &window); //game start
+	void over(int i, Field field, vector<Block*> blocks, Stats stats, Next nextWindow, RenderWindow &window); //game over
 
 private:
 

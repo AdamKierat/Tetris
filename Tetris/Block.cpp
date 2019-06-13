@@ -1,5 +1,5 @@
 #include "Block.h"
-
+//Poruszanie bloku
 void Block::move(float offsetX, float offsetY) {
 	for (int i = 0; i < 4; i++) {
 		blocks[i].move(offsetX, offsetY);
@@ -72,7 +72,7 @@ void Block::drawBlock(RenderWindow &window, Field f) {
 	}
 	delete[] fieldP;
 }
-
+//Metoda poruszająca blokiem
 void Block::moveBlock(Field f, int row) {
 	Vector2f* positions;
 	int x, y;
