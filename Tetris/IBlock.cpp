@@ -1,7 +1,7 @@
 #include "IBlock.h"
 
 IBlock::IBlock() {
-	tileTexture.loadFromFile("images/brick.png");
+	tileTexture.loadFromFile("images/ib.png");
 	BRICK_SIZE = 30;
 	angle = 0;
 

@@ -1,7 +1,7 @@
 #include "JBlock.h"
 
 JBlock::JBlock() {
-	tileTexture.loadFromFile("images/obrick.png");
+	tileTexture.loadFromFile("images/jb.png");
 	BRICK_SIZE = 30;
 	angle = 0;
 

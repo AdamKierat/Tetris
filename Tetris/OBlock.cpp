@@ -1,7 +1,7 @@
 #include "OBlock.h"
 
 OBlock::OBlock() {
-	tileTexture.loadFromFile("images/ybrick.png");
+	tileTexture.loadFromFile("images/ob.png");
 	BRICK_SIZE = 30;
 	angle = 0;
 
