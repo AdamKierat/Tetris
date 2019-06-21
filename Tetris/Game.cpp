@@ -106,7 +106,7 @@ void Game::start(RenderWindow &window) {
 					}
 					break;
 
-				case Keyboard::W:
+				case Keyboard::Up:
 					blocks[i]->rotateBlock(field);
 					break;
 
