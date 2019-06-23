@@ -20,11 +20,11 @@ public:
 	//Zwraca 4 kierunki pozycji bloku
 	Vector2f* getPosition();
 
-	//Rysuje blok jesli znajduje sie w tably
+	//Rysuje blok jesli znajduje sie w tablicy
 	void drawBlock(RenderWindow &window, Field field);
 
-	// Porusza blokiem w dol jestl znajduje sie w tablicy field
-	//Metoda zadzaila Method will only works if element of block will fits inside row
+	// Porusza blokiem w dol jesli znajduje sie w tablicy field
+	//Metoda zadzaila tylko jesli klocek znajdzie sie w wierszu
 	void moveBlock(Field F, int row);
 	
 	virtual void rotateBlock(Field F) = 0;
