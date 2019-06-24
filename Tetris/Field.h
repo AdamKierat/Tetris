@@ -13,27 +13,27 @@ class Field
 public:
 	Field();
 	void display();
-	//When the block falls down, put his clone in field table
+	//Kiedy blok spada na dol, tworzy klon w tablicy field
 	
 	void update(Block *block);
 
 	bool isOnBlock(Block *block);
-	//Check if block touch another from bottom
+	//Sprawdza czy block nie dotknal innego z dolu
 
 	bool isOnLeft(Block *block);
-	//Check if block touch another from left
+	//Sprawdza czy block nie dotknal innego z lewej
 
 	bool isOnRight(Block *block);
-	//Check if block touch another from right
+	//Sprawdza czy block nie dotknal innego z prawej
 
 	char** getField();
-	//Return background/map
+	//zwraca background
 
 	int checkLines(vector<Block*> &blocks);
-	//Check if lines are full and move one unit down, if lines clear
+	//Sprawdza czy lines sa pelne i przesuwa o jedna jedostke w dol
 
 	bool isOver();
-	//Check if is game over
+	//Sprawdzanie czy gra sie zakonczyla
 
 private:
 	char field[20][10];

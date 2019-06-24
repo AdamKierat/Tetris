@@ -1,7 +1,7 @@
 #include "LBlock.h"
 
 LBlock::LBlock() {
-	tileTexture.loadFromFile("images/brick.png");
+	tileTexture.loadFromFile("images/lb.png");
 	BRICK_SIZE = 30;
 	angle = 0;
 
@@ -9,7 +9,6 @@ LBlock::LBlock() {
 	for (int i = 0; i < 4; i++) {
 		blocks[i].setSize(Vector2f(BRICK_SIZE, BRICK_SIZE));
 		blocks[i].setTexture(&tileTexture);
-		blocks[i].setFillColor(Color::Yellow);
 	}
 
 	// Ustawiam ksztalt klocka "L"

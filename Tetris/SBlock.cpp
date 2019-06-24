@@ -1,7 +1,7 @@
 #include "SBlock.h"
 
 SBlock::SBlock() {
-	tileTexture.loadFromFile("images/brick.png");
+	tileTexture.loadFromFile("images/sb.png");
 	BRICK_SIZE = 30;
 	angle = 0;
 
@@ -9,7 +9,6 @@ SBlock::SBlock() {
 	for (int i = 0; i < 4; i++) {
 		blocks[i].setSize(Vector2f(BRICK_SIZE, BRICK_SIZE));
 		blocks[i].setTexture(&tileTexture);
-		blocks[i].setFillColor(Color::Magenta);
 	}
 
 	// Ustawiam ksztalt klocka "S"

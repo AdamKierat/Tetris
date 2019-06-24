@@ -1,7 +1,7 @@
 #include "ZBlock.h"
 
 ZBlock::ZBlock() {
-	tileTexture.loadFromFile("images/pibrick.png");
+	tileTexture.loadFromFile("images/zb.png");
 	BRICK_SIZE = 30;
 	angle = 0;
 

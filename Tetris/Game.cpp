@@ -64,7 +64,7 @@ void Game::start(RenderWindow &window) {
 	int i = 0;
 
 	Clock clock;
-	float time, timer = 0, delay = 0.7;
+	float time, timer = 0, delay = 0.5;
 
 	selectBlock(blocks);
 
@@ -88,25 +88,25 @@ void Game::start(RenderWindow &window) {
 					window.close();
 					break;
 
-				case Keyboard::A:
+				case Keyboard::Left:
 					if (!(blocks[i]->isOnLeft(window)) && !(field.isOnLeft(blocks[i]))) {
 						blocks[i]->move(-30, 0);
 					}
 					break;
 
-				case Keyboard::D:
+				case Keyboard::Right:
 					if (!(blocks[i]->isOnRight(window)) && !(field.isOnRight(blocks[i]))) {
 						blocks[i]->move(30, 0);
 					}
 					break;
 
-				case Keyboard::S:
+				case Keyboard::Down:
 					if (!(blocks[i]->isOnBottom(window)) && !(field.isOnBlock(blocks[i]))) {
 						blocks[i]->move(0, 30);
 					}
 					break;
 
-				case Keyboard::W:
+				case Keyboard::Up:
 					blocks[i]->rotateBlock(field);
 					break;
 

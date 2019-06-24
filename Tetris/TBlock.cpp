@@ -1,7 +1,7 @@
 #include "TBlock.h"
 
 TBlock::TBlock() {
-	tileTexture.loadFromFile("images/pbrick.png");
+	tileTexture.loadFromFile("images/tb.png");
 	BRICK_SIZE = 30;
 	angle = 0;
 
